@@ -3,7 +3,7 @@ Feature: PIM Page functionality
   Scenario: Verify Add Employee functionality
 
     Given log in to the application
-    Then verify Welcome selenium
+    Then verify Welcome manoj
 
     When move the mouse to the PIM
     And click on the Add Employee button

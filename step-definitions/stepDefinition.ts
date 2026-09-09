@@ -34,7 +34,7 @@ Given("log in to the application", async function () {
 
 
 // Verify Welcome Message
-Then("verify Welcome selenium", async  () => {
+Then("verify Welcome manoj", async  () => {
 
     const welcomeText = await CommonUtils.getElementText(
         loginPage.getWelcomePage()
